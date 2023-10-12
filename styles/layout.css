@@ -1,0 +1,60 @@
+:root {
+  /* default theme color */
+  /* can be overrided by uses `themeConfig` option */
+  --slidev-theme-primary: #5d8392;
+}
+
+.slidev-layout {
+  h1 {
+    @apply font-noto text-[#222];
+  }
+  ul {
+    @apply list-revert;
+  }
+}
+
+.slidev-layout.intro {
+  @apply h-full;
+
+  h1 {
+    @apply text-6xl leading-20 font-800;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+}
+
+.slidev-layout.catalog {
+  @apply h-full;
+
+  h1 {
+    @apply text-[70px] leading-20 font-700 font-noto relative -translate-y-[30px];
+  }
+
+  h1::after {
+    content: 'CATALOG';
+    @apply absolute top-20 left-0 text-[40px] opacity-20;
+    letter-spacing: 10px;
+  }
+
+  section {
+    @apply text-[35px];
+    ul {
+      @apply list-revert;
+    }
+  }
+}
+
+.slidev-layout.chapter,
+.slidev-layout.thanks {
+  h1 {
+    @apply text-[70px] font-700;
+  }
+}
+
+.slidev-layout.default {
+  h1 {
+    @apply text-[26px] font-800;
+  }
+}
