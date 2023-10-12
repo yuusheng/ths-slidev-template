@@ -16,6 +16,12 @@ layout: catalog
 - 第三章
 
 ---
+layout: chapter
+chapter: 1
+title: 第一章
+---
+
+---
 layout: default
 sort: 1
 title: 默认标题
@@ -24,12 +30,6 @@ title: 默认标题
 - 第一点
 - 第二点
 - 第三点
-
----
-layout: chapter
-chapter: 1
-title: 第一章
----
 
 ---
 layout: image-right

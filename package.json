@@ -27,11 +27,11 @@
   },
   "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
   "slidev": {
-    "colorSchema": "both",
+    "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Noto Sans TC",
+        "sans": "Noto Sans SC",
         "mono": "Fira Code"
       },
       "hightlighter": "prism"
